@@ -1,0 +1,58 @@
+* {
+  transition: all 0.2s;
+}
+
+body {
+  background: #f4f4f4;
+  font-family: Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.main {
+  display: inline-block;
+
+  &__clear {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  &__top {
+    position: relative;
+    margin-bottom: 15px;
+  }
+
+  &__input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+}
+.inline-block {
+  display: inline-block;
+}
+
+table {
+  background: #fff;
+  user-select: none;
+}
+
+.avatar {
+  display: block;
+  background: #ccc;
+}
+
+col {
+  transition: background 0.2s;
+}
+
+.sorted {
+  background: #fffdc7;
+}

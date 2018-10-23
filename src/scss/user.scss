@@ -1,0 +1,21 @@
+.user {
+  &__td {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 15px;
+  }
+
+  &__icon {
+    cursor: pointer;
+
+    svg {
+      width: 15px;
+    }
+  }
+
+  &__avatar {
+    vertical-align: middle;
+    max-width: 20px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+}

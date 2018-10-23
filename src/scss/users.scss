@@ -1,0 +1,17 @@
+.users {
+  border-collapse: collapse;
+
+  th {
+    background: #8ac858;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 400;
+    padding: 10px 15px;
+    text-align: left;
+    transition: background 0.2s;
+
+    &.sorted {
+      background: #609c47;
+    }
+  }
+}
